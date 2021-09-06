@@ -1,143 +1,435 @@
 <mjml>
   <mj-head>
     <mj-title> Apple Watch </mj-title>
-    <mj-style inline="inline"> </mj-style>
+    <mj-style inline="inline">
+      .see-all td { padding: 5px 10px 0 0 !important; } .btn-buy td { padding: 0
+      !important; } .link-contact td {padding: 0 !important;}
+    </mj-style>
   </mj-head>
   <mj-body background-color="#F4F4F4" padding="0 70px" border-radius="40px">
-    <mj-section padding="20px 0 0">
-      <mj-column
-        width="560px"
+    <mj-wrapper padding="0 20px">
+      <mj-section padding="50px 0 0">
+        <mj-column
+          background-color="#ffffff"
+          border-radius="8px 8px 0px 0px"
+          padding="30px 0"
+        >
+          <mj-image
+            align="center"
+            src="assets/images/apple.png"
+            alt=""
+            width="149px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0 0 32px">
+        <mj-column
+          padding="5px 0"
+          background-color="#444444"
+          border-radius="0px 0px 8px 8px"
+        >
+          <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link
+              href="#"
+              color="#ffffff"
+              font-family="Inter, sans-serif"
+              font-size="13px"
+              text-transform="none"
+              >Design</mj-navbar-link
+            >
+            <mj-navbar-link
+              href="#"
+              color="#ffffff"
+              font-family="Inter, sans-serif"
+              font-size="13px"
+              text-transform="none"
+              >Health</mj-navbar-link
+            >
+            <mj-navbar-link
+              href="#"
+              color="#ffffff"
+              font-family="Inter, sans-serif"
+              font-size="13px"
+              text-transform="none"
+              >Workout</mj-navbar-link
+            >
+            <mj-navbar-link
+              href="#"
+              color="#ffffff"
+              font-family="Inter, sans-serif"
+              font-size="13px"
+              text-transform="none"
+              >Activity</mj-navbar-link
+            >
+            <mj-navbar-link
+              href="#"
+              color="#ffffff"
+              font-family="Inter, sans-serif"
+              font-size="13px"
+              text-transform="none"
+              >Connect</mj-navbar-link
+            >
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 20px">
+      <mj-section border-radius="8px" background-color="#ffffff" padding="0">
+        <mj-column width="330px" padding-left="45px">
+          <mj-text
+            padding-top="50px"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="36px"
+            line-height="44px"
+            color="#0C1014"
+          >
+            Change starts within.
+          </mj-text>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-size="14px"
+            line-height="20px"
+            color="#515759"
+            padding-bottom="30px"
+          >
+            Apple Watch Series 4. <br />
+            Fundamentally redesigned and re‑engineered to help you be even more
+            active, healthy, and connected.
+          </mj-text>
+          <mj-button
+            background-color="transparent"
+            color="#1890FF"
+            font-family="Inter, sans-serif"
+            font-size="15px"
+            align="left"
+            padding="0 0 110px 0"
+            href="#"
+          >
+            Visit website
+            <img src="assets/images/arrow-sm.png" alt="" width="6px" />
+          </mj-button>
+          <mj-button
+            align="left"
+            background-color="#1890FF"
+            border-radius="8px"
+            width="128px"
+            height="20px"
+            padding="0 0 40px 25px"
+            href="#"
+          >
+            Buy
+          </mj-button>
+        </mj-column>
+        <mj-column width="230px" padding="0">
+          <mj-image
+            padding="0"
+            width="176px"
+            src="assets/images/watch.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-spacer height="34px" />
+
+    <mj-wrapper padding="0 20px">
+      <mj-section
+        padding="20px 0 40px"
         background-color="#ffffff"
-        border-radius="8px 8px 0px 0px"
-        padding="30px 0"
+        border-radius="8px 8px 0 0"
       >
-        <mj-image
-          align="center"
-          src="assets/images/apple.png"
-          alt=""
-          width="149px"
-        />
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0">
-      <mj-column
-        width="560px"
-        padding="5px 0"
-        background-color="#444444"
+        <mj-group width="450px">
+          <mj-column padding="20px 0 0 10px" width="60%">
+            <mj-text
+              color="#0C1014"
+              font-family="Inter, sans-serif"
+              font-weight="bold"
+              font-size="24px"
+              line-height="29px"
+              align="left"
+              padding="0"
+            >
+              Check also
+            </mj-text>
+          </mj-column>
+          <mj-column padding="20px 0 0" width="40%">
+            <mj-button
+              css-class="see-all"
+              align="right"
+              background-color="transparent"
+              color="#1890FF"
+              font-family="Inter, sans-serif"
+              font-size="15px"
+              padding="0"
+              href="#"
+            >
+              See all
+              <image
+                style="padding-left: 5px"
+                src="assets/images/arrow-sm.png"
+                alt=""
+                width="6px"
+              />
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section
+        background-color="#ffffff"
+        padding="30px 0 30px"
         border-radius="0px 0px 8px 8px"
       >
-        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
-          <mj-navbar-link
-            href="#"
-            color="#ffffff"
+        <mj-column width="50%" padding="0 0 40px">
+          <mj-image width="168px" src="assets/images/airpods.png" alt="" />
+          <mj-text
+            align="center"
+            color="#0C1014"
             font-family="Inter, sans-serif"
-            font-size="13px"
-            text-transform="none"
-            >Design</mj-navbar-link
+            font-weight="bold"
+            font-size="16px"
+            line-height="19px"
+            padding="23px 0 5px"
           >
-          <mj-navbar-link
-            href="#"
-            color="#ffffff"
+            AirPods
+          </mj-text>
+          <mj-text
+            align="center"
+            color="#515759"
             font-family="Inter, sans-serif"
-            font-size="13px"
-            text-transform="none"
-            >Health</mj-navbar-link
+            font-size="12px"
+            line-height="20px"
+            padding="0"
           >
-          <mj-navbar-link
+            $199.00
+          </mj-text>
+          <mj-button
+            css-class="btn-buy"
+            align="center"
+            font-size="10px"
+            background-color="#1890FF"
+            border-radius="4px"
+            width="56px"
+            height="24px"
             href="#"
-            color="#ffffff"
-            font-family="Inter, sans-serif"
-            font-size="13px"
-            text-transform="none"
-            >Workout</mj-navbar-link
           >
-          <mj-navbar-link
+            Buy
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%" padding="0 0 40px">
+          <mj-image width="168px" src="assets/images/iphone.png" alt="" />
+          <mj-text
+            align="center"
+            color="#0C1014"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="16px"
+            line-height="19px"
+            padding="23px 0 5px"
+          >
+            Iphone XR
+          </mj-text>
+          <mj-text
+            align="center"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-size="12px"
+            line-height="20px"
+            padding="0"
+          >
+            $799.00
+          </mj-text>
+          <mj-button
+            css-class="btn-buy"
+            align="center"
+            font-size="10px"
+            background-color="#1890FF"
+            border-radius="4px"
+            width="56px"
+            height="24px"
             href="#"
-            color="#ffffff"
-            font-family="Inter, sans-serif"
-            font-size="13px"
-            text-transform="none"
-            >Activity</mj-navbar-link
           >
-          <mj-navbar-link
+            Buy
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%" padding="0 0 40px">
+          <mj-image width="168px" src="assets/images/apple-tv.png" alt="" />
+          <mj-text
+            align="center"
+            color="#0C1014"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="16px"
+            line-height="19px"
+            padding="23px 0 5px"
+          >
+            Apple TV 4K
+          </mj-text>
+          <mj-text
+            align="center"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-size="12px"
+            line-height="20px"
+            padding="0"
+          >
+            $179.00
+          </mj-text>
+          <mj-button
+            css-class="btn-buy"
+            align="center"
+            font-size="10px"
+            background-color="#1890FF"
+            border-radius="4px"
+            width="56px"
+            height="24px"
             href="#"
-            color="#ffffff"
-            font-family="Inter, sans-serif"
-            font-size="13px"
-            text-transform="none"
-            >Connect</mj-navbar-link
           >
-        </mj-navbar>
-      </mj-column>
-    </mj-section>
+            Buy
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%" padding="0 0 40px">
+          <mj-image width="168px" src="assets/images/apple-card.png" alt="" />
+          <mj-text
+            align="center"
+            color="#0C1014"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="16px"
+            line-height="19px"
+            padding="23px 0 5px"
+          >
+            Apple Card
+          </mj-text>
+          <mj-text
+            align="center"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-size="12px"
+            line-height="20px"
+            padding="0"
+          >
+            Free*
+          </mj-text>
+          <mj-button
+            css-class="btn-buy"
+            align="center"
+            font-size="10px"
+            background-color="#1890FF"
+            border-radius="4px"
+            width="56px"
+            height="24px"
+            href="#"
+          >
+            Apply
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
 
-    <mj-section>
-      <mj-column
-        width="330px"
-        padding-left="45px"
-        border-radius="8px 0px 0px 8px"
-        background-color="#ffffff"
-      >
-        <mj-text
-          padding-top="50px"
-          font-family="Inter, sans-serif"
-          font-weight="bold"
-          font-size="36px"
-          line-height="44px"
-          color="#0C1014"
-        >
-          Change starts within.
-        </mj-text>
-        <mj-text
-          font-family="Inter, sans-serif"
-          font-size="14px"
-          line-height="20px"
-          color="#515759"
-          padding-bottom="30px"
-        >
-          Apple Watch Series 4. <br />
-          Fundamentally redesigned and re‑engineered to help you be even more
-          active, healthy, and connected.
-        </mj-text>
-        <mj-button
-          background-color="transparent"
-          color="#1890FF"
-          font-family="Inter, sans-serif"
-          font-size="15px"
-          align="left"
-          padding="0 0 110px 0"
-          href="#"
-        >
-          Visit website
-          <img src="assets/images/arrow-sm.png" alt="" width="6px" />
-        </mj-button>
-        <mj-button
-          align="left"
-          background-color="#1890FF"
-          border-radius="8px"
-          width="128px"
-          height="20px"
-          padding="0 0 40px 25px"
-          href="#"
-        >
-          Buy
-        </mj-button>
-      </mj-column>
-      <mj-column
-        background-color="#ffffff"
-        border-radius="0px 8px 8px 0px"
-        width="230px"
-        padding="0"
-      >
-        <mj-image
-          padding="0"
-          width="176px"
-          src="assets/images/watch.png"
-          alt=""
-        />
-      </mj-column>
-    </mj-section>
+    <mj-spacer height="32px" />
 
-    <mj-section> </mj-section>
+    <mj-wrapper padding="0 20px">
+      <mj-section background-color="#ffffff" border-radius="8px">
+        <mj-column width="50%">
+          <mj-text
+            align="left"
+            color="#0C1014"
+            font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="18px"
+            line-height="22px"
+            padding="32px 0 5px 10px"
+          >
+            Follow Us.
+          </mj-text>
+          <mj-text
+            align="left"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-size="12px"
+            line-height="20px"
+            padding="5px 95px 5px 10px"
+          >
+            We are always looking for new projects and collaborations. Feel free
+            to contact us.
+          </mj-text>
+          <mj-table padding="10px 0 0 8px" width="120px">
+            <tr>
+              <td style="padding: 0">
+                <a href="#">
+                  <img width="20px" src="assets/images/facebook.png" alt="" />
+                </a>
+              </td>
+              <td style="padding: 0">
+                <a href="#">
+                  <img width="20px" src="assets/images/twitter.png" alt="" />
+                </a>
+              </td>
+              <td style="padding: 0">
+                <a href="#">
+                  <img width="20px" src="assets/images/instagram.png" alt="" />
+                </a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="150px">
+          <mj-text
+            align="left"
+            color="#0C1014"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="16px"
+            line-height="19px"
+            padding="32px 0 5px 10px"
+          >
+            Contact Us.
+          </mj-text>
+          <mj-text
+            align="left"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-size="12px"
+            line-height="20px"
+            padding="5px 0 16px 10px"
+          >
+            One Apple Park Way Cupertino, CA 95014
+          </mj-text>
+          <mj-button
+            css-class="link-contact"
+            color="#515759"
+            font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="11px"
+            line-height="20px"
+            background-color="transparent"
+            padding="0 0 0 10px"
+            align="left"
+            href="tel:4089961010"
+          >
+            (408) 996-1010
+          </mj-button>
+          <mj-button
+            css-class="link-contact"
+            color="#1890FF"
+            font-family="Inter, sans-serif"
+            font-size="11px"
+            line-height="20px"
+            background-color="transparent"
+            padding="5px 0 0 10px"
+            align="left"
+            href="mailto:support@apple.com"
+          >
+            support@apple.com
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-spacer height="25px" />
   </mj-body>
 </mjml>
