@@ -1,11 +1,143 @@
 <mjml>
   <mj-head>
     <mj-title> Apple Watch </mj-title>
-    <mj-style inline="inline">
-     
-    </mj-style>
+    <mj-style inline="inline"> </mj-style>
   </mj-head>
-  <mj-body background-color="#FAFAFA" padding="0 70px">
-   
+  <mj-body background-color="#F4F4F4" padding="0 70px" border-radius="40px">
+    <mj-section padding="20px 0 0">
+      <mj-column
+        width="560px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0px 0px"
+        padding="30px 0"
+      >
+        <mj-image
+          align="center"
+          src="assets/images/apple.png"
+          alt=""
+          width="149px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column
+        width="560px"
+        padding="5px 0"
+        background-color="#444444"
+        border-radius="0px 0px 8px 8px"
+      >
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link
+            href="#"
+            color="#ffffff"
+            font-family="Inter, sans-serif"
+            font-size="13px"
+            text-transform="none"
+            >Design</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="#"
+            color="#ffffff"
+            font-family="Inter, sans-serif"
+            font-size="13px"
+            text-transform="none"
+            >Health</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="#"
+            color="#ffffff"
+            font-family="Inter, sans-serif"
+            font-size="13px"
+            text-transform="none"
+            >Workout</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="#"
+            color="#ffffff"
+            font-family="Inter, sans-serif"
+            font-size="13px"
+            text-transform="none"
+            >Activity</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="#"
+            color="#ffffff"
+            font-family="Inter, sans-serif"
+            font-size="13px"
+            text-transform="none"
+            >Connect</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        width="330px"
+        padding-left="45px"
+        border-radius="8px 0px 0px 8px"
+        background-color="#ffffff"
+      >
+        <mj-text
+          padding-top="50px"
+          font-family="Inter, sans-serif"
+          font-weight="bold"
+          font-size="36px"
+          line-height="44px"
+          color="#0C1014"
+        >
+          Change starts within.
+        </mj-text>
+        <mj-text
+          font-family="Inter, sans-serif"
+          font-size="14px"
+          line-height="20px"
+          color="#515759"
+          padding-bottom="30px"
+        >
+          Apple Watch Series 4. <br />
+          Fundamentally redesigned and re‑engineered to help you be even more
+          active, healthy, and connected.
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          color="#1890FF"
+          font-family="Inter, sans-serif"
+          font-size="15px"
+          align="left"
+          padding="0 0 110px 0"
+          href="#"
+        >
+          Visit website
+          <img src="assets/images/arrow-sm.png" alt="" width="6px" />
+        </mj-button>
+        <mj-button
+          align="left"
+          background-color="#1890FF"
+          border-radius="8px"
+          width="128px"
+          height="20px"
+          padding="0 0 40px 25px"
+          href="#"
+        >
+          Buy
+        </mj-button>
+      </mj-column>
+      <mj-column
+        background-color="#ffffff"
+        border-radius="0px 8px 8px 0px"
+        width="230px"
+        padding="0"
+      >
+        <mj-image
+          padding="0"
+          width="176px"
+          src="assets/images/watch.png"
+          alt=""
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section> </mj-section>
   </mj-body>
 </mjml>
