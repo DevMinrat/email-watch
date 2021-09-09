@@ -11,7 +11,7 @@ ____
 #### Демонстрация письма 
 ____    
 
-![image](https://github.com/DevMinrat/email-serverSharing/blob/master/mails_ServerSharing.png)
+![image](https://github.com/DevMinrat/email-watch/blob/master/mails_apple_watch.png)
 
 #### Ссылки    
 ____   
